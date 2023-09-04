@@ -1,0 +1,102 @@
+<!--<section class="top-bar">
+    <h1>Budget Calculator</h1>
+</section>
+
+<section class="total-budget-section">
+    <h2 class="red">1500</h2>
+</section>
+
+<section class="add-item-section">
+    <section class="add-item-container">
+         <app-add-item-form style="padding: 20px;"></app-add-item-form>
+    </section>
+</section>
+
+<hr style="margin-top: 0"/>
+
+<app-budget-item-list> </app-budget-item-list>-->
+
+<section class="top-bar">
+  <h1>Budget Calculator</h1>
+</section>
+
+<section class="total-budget-section">
+  <h2>1500</h2>
+</section>
+
+<section class="add-item-section">
+  <section class="add-item-container">
+    <form>
+      <div class="field-body is-horizontal">
+        <div class="field is-narrow">
+          <p class="control">
+            <input type="number" placeholder="0" class="input" style="width: 70px"/>
+          </p>
+        </div>
+        <div class="field">
+          <p class="control">
+            <input type="text" placeholder="Item" class="input"/>
+          </p>
+        </div>
+        <div class="field is-narrow">
+          <p class="control">
+            <button class="button is-primary">Add</button>
+          </p>
+        </div>
+      </div>
+    </form>
+    <hr/>
+  </section>
+</section>
+
+<section class="budget-items-section">
+  <section class="budget-items-container">
+
+    <div class="income-column">
+      <h1>Income</h1>
+      <div class="budget-items">
+
+        <div class="budget-item-root">
+          <div class="budget-item-content">
+            <p class="description">Income 1</p>
+            <p class="amount">10</p>
+          </div>
+          <div class="remove-icon"></div>
+        </div>
+
+        <div class="budget-item-root">
+          <div class="budget-item-content">
+            <p class="description">Income 2</p>
+            <p class="amount">30</p>
+          </div>
+          <div class="remove-icon"></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="expense-column">
+      <h1>Expenses</h1>
+      <div class="budget-items">
+
+        <div class="budget-item-root">
+          <div class="budget-item-content">
+            <p class="description">Expense 1</p>
+            <p class="amount">10</p>
+          </div>
+          <div class="remove-icon"></div>
+        </div>
+
+      <div class="budget-item-root">
+        <div class="budget-item-content">
+          <p class="description">Expense 2</p>
+          <p class="amount">15</p>
+        </div>
+        <div class="remove-icon"></div>
+      </div>
+
+
+      </div>
+    </div>
+
+  </section>
+</section>
